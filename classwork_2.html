@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+         *{
+            box-sizing: border-box;
+        }
+        body{
+            font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            margin:20px auto;
+            width: 70%;
+        }
+        .photo{
+            background-color: #aaa;
+            border: 1px solid #999;
+            color:#444;
+            text-align: center;
+            /*жирность шрифта*/
+            font-weight: bold;
+            font-size: 48px;
+            padding: 100px 40px;
+            margin: 0 20px 20px 0;
+            width: 200px;
+            float: left;
+        }
+        .clear{
+            clear:both;
+        }
+        .clearfix::before,
+        .clearfix::after{
+            content: '';
+            display: block;
+        }
+        .clearfix::after{
+            clear:both;
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="clearfix">
+    <h1>Our team</h1>
+    <div class="photo">Photo 1</div>
+    <h2>Michel Fiorry</h2>
+    <h3>CEO</h3>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat soluta iste, placeat vel laudantium totam provident ullam laboriosam illo dignissimos culpa itaque, sed error voluptatem! Tenetur, fugit. Enim, libero doloremque?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque accusantium praesentium id voluptatem architecto quaerat atque quos, illo eius, tempore nulla consectetur neque minus quam magni non eum maiores quo.</p>
+    </div>
+    <!--<div class="clear"></div>-->
+    <div class="clearfix">
+    <div class="photo">Photo 1
+    <h2>Michel Fiorry</h2>
+    <h3>CEO</h3>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat soluta iste, placeat vel laudantium totam provident ullam laboriosam illo dignissimos culpa itaque, sed error voluptatem! Tenetur, fugit. Enim, libero doloremque?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque accusantium praesentium id voluptatem architecto quaerat atque quos, illo eius, tempore nulla consectetur neque minus quam magni non eum maiores quo.</p>
+   </div>
+    <!--<div class="clear"></div>-->
+    <div class="photo">Photo 1
+    <div class="photo">Photo 1</div>
+    <h2>Michel Fiorry</h2>
+    <h3>CEO</h3>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat soluta iste, placeat vel laudantium totam provident ullam laboriosam illo dignissimos culpa itaque, sed error voluptatem! Tenetur, fugit. Enim, libero doloremque?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque accusantium praesentium id voluptatem architecto quaerat atque quos, illo eius, tempore nulla consectetur neque minus quam magni non eum maiores quo.</p>
+   </div>
+    <!--<div class="clear"></div>-->
+    <div class="photo">Photo 1
+    <div class="photo">Photo 1</div>
+    <h2>Michel Fiorry</h2>
+    <h3>CEO</h3>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat soluta iste, placeat vel laudantium totam provident ullam laboriosam illo dignissimos culpa itaque, sed error voluptatem! Tenetur, fugit. Enim, libero doloremque?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque accusantium praesentium id voluptatem architecto quaerat atque quos, illo eius, tempore nulla consectetur neque minus quam magni non eum maiores quo.</p>
+   </div>
+</body>
+</html>
